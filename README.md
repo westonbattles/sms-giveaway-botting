@@ -1,5 +1,5 @@
 
-<h1 align="center", > sms-giveaway-botting</h1>
+<h1 align="center", > SMS Giveaway Botting (Using Twilio)</h1>
 
 A set of scripts that uses the twilio api to bot free coupons from sms response giveaways (I used this with a chipotle burrito coupon giveaway)
 
@@ -8,10 +8,12 @@ A set of scripts that uses the twilio api to bot free coupons from sms response 
 
 ## Overview
 
-- **Practicality** • The files in this project have a lot of practical applications with a wide variety of uses that aren't limited to botting coupon codes. These applications include (but are not limited to):
+- **Practicality** • The files in this project have a lot of practical applications with a wide variety of uses that aren't bound to botting coupon codes. These applications include (but are not limited to):
 
   - **Mass procurement of twilio phone numbers** • Useful for companies who do most of the server-user interaction using sms and therefore, need a large sum of phone numbers on hand (Food Delivery Services, Two Factor Authentication, etc..)
   - **Server automation for recieving sms messages using flask with ngrok** • Useful for apps that want to be able to recieve and save messages sent by the user
+- **Ethical Dilemma** • While I am aware of the ethical dilemmas this entire project poses (spamming, ddos sms flooding), I do believe that this can equally do as much good. 
+  - People can use these scripts to bot food giveaways (like the giveaway that started this whole project) and then give away the hundreds maybe even thousands of free coupons they get to homless people/shelters, kids and families who's soul source of food come from food vouchers, etc. The possibilities are literally endless. If you do end up using the code to bot coupon giveaways, I urge you to instead of finding a website where you can sell coupons easily for a quick profit, use the codes as a stepping stone to changing the world. It may not cure world hunger but 1000 free meals can go a long way.
   
  
  &nbsp;
