@@ -1,7 +1,7 @@
 
 <h1 align="center", > SMS Giveaway Botting (Using Twilio)</h1>
 
-A set of scripts that uses the twilio api to bot free coupons from sms response giveaways (I used this with a chipotle burrito coupon giveaway)
+A set of scripts (using the twilio api) that among other things, can bot sms response giveaways
 
 
 
@@ -15,6 +15,17 @@ A set of scripts that uses the twilio api to bot free coupons from sms response 
 - **Ethical Dilemma** • While I am aware of the ethical dilemmas this entire project poses (spamming, ddos sms flooding), I do believe that this can equally do as much good. 
   - People can use these scripts to bot food giveaways (like the giveaway that started this whole project) and then give away the hundreds maybe even thousands of free coupons they get to homless people/shelters, kids and families who's soul source of food come from food vouchers, etc. The possibilities are literally endless. If you do end up using the code to bot coupon giveaways, I urge you to instead of finding a website where you can sell coupons easily for a quick profit, use the codes as a stepping stone to changing the world. It may not cure world hunger but 1000 free meals can go a long way.
   
+## Table of Contents
+
+<ul>
+    <li><a href="#Installing">Installing</a></li>
+    <li><a href="#Setup">Setup</a></li>
+    <li><a href="#Offset">Offset</a></li>
+    <li><a href="#Running-the-sniper">Running the sniper</a></li>
+    <li><a href="#For-advanced-users">For advanced users</a></li>
+  </ul>
+
+## Installing
  
  &nbsp;
    ```python
