@@ -20,13 +20,46 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
 <ul>
     <li><a href="#Installing">Installing</a></li>
     <li><a href="#Setup">Setup</a></li>
-    <li><a href="#Offset">Offset</a></li>
-    <li><a href="#Running-the-sniper">Running the sniper</a></li>
-    <li><a href="#For-advanced-users">For advanced users</a></li>
+    <li><a href="#Running">Offset</a></li>
+    <li><a href="#Inspiration">Running the sniper</a></li>
   </ul>
 
 ## Installing
  
+Before you begin, make sure you have Python 3 + pip installed. To check if you have these installed run `python -V` (make sure the version is python 3.X.X) and `python -m pip -V`. If you don't have these installed please read the guide below
+
+### Installing Python 3 for Windows
+
+Click on the following link and open it once it's downloaded:
+
+`https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe`
+
+Once you have opened the installer, make sure that you add Python 3.8 to path. Your installer should look like this:
+
+<img align="center" src="https://i.imgur.com/SkviBw6.png">
+
+### Installing Python for MacOS.
+
+Click on the following link and install:
+
+`https://www.python.org/ftp/python/3.8.0/python-3.8.0-macosx10.9.pkg`
+
+### Installing Python for Linux
+
+Since there are a multitude of package installers for Linux, we'll choose `apt` which is used in Debian-derived distros such as Ubuntu as an example.
+
+Go to the terminal and type in the following:
+
+```shell
+sudo apt update && sudo apt upgrade
+sudo apt install -y python3 python3-pip
+```
+
+
+# Setup
+
+First things first, we're going to need access to twilio's api
+
  &nbsp;
    ```python
    from flask import Flask
