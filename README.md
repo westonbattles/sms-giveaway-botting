@@ -22,7 +22,7 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
     <li><a href="#Setup">Setup</a></li>
     <li><a href="#Running">Running the bot</a></li>
     <li><a href="#Inspiration">Inspiration</a></li>
-    <li><a href="#About Flask">About Flask</a></li>
+    <li><a href="#About-Flask">About Flask</a></li>
   </ul>
 
 ## Installing
