@@ -102,13 +102,19 @@ Next, you want to navigate to the `Advanced` tab and click `Environment Variable
 
 You then want to click `New...` under user variables or system variables (depending on if you want these variables to be accessible by ever user on your computer or just by you)
 
-You then want to carefully type in the variable name slot `TWILIO_ACCOUNT_SID`, and then copy and paste your account sid from earlier into the variable key
+Then, carefully type in the variable name slot: `TWILIO_ACCOUNT_SID`
+
+Next, copy & paste your account sid from earlier into the variable key like so:
 
 <img src="https://user-images.githubusercontent.com/50222899/128275175-0142193d-aa4d-4ee1-9ce9-83b8d081b869.JPG">
 
-Next, hit `OK`, and then do the same thing but this time name the new variable `TWILIO_AUTH_TOKEN`, and paste your auth token into the key slot
+Hit `OK`, and then do the same thing but this time name the new variable: `TWILIO_AUTH_TOKEN` 
 
-Lastly, hit `OK` again, and you're good to go
+paste your auth token into the key slot and hit `OK` again
+
+### Installing the requried libs
+
+
 
  
 ## About Flask
