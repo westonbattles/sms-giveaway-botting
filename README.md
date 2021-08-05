@@ -117,8 +117,11 @@ paste your auth token into the key slot and hit `OK` again
 I don't currently have an operational macOS/Linux device, however after 2 minutes of research I found this article and I wanted to give credit instead of essentially copy and pasting the tutorial into here so:
 <a href="https://www.schrodinger.com/kb/1842">https://www.schrodinger.com/kb/1842</a>
 
+<br>
 
 ### Installing the files
+
+
 
 There are two ways to install the files, using `git` or manually
 
@@ -128,6 +131,12 @@ make sure you have git installed and run the command:
 `git clone https://github.com/westonbattles/sms-giveaway-botting.git`
 
 If your computer tells you that git isn't installed, please follow <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">this guide</a> on installing git
+
+<br>
+
+For the manual way, all you have to do is download the zip of this repository and extract it to where you want all the files to be stored
+
+<br>
 
 ### Installing the requried libs
 
