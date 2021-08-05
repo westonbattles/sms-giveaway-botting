@@ -112,9 +112,19 @@ Hit `OK`, and then do the same thing but this time name the new variable: `TWILI
 
 paste your auth token into the key slot and hit `OK` again
 
+### Setting your environment variables on macOS/Linux
+
+I don't currently have an operational macOS/Linux device, however after 2 minutes of research I found this article and I wanted to give credit instead of essentially copy and pasting the tutorial into here so:
+<a href="https://www.schrodinger.com/kb/1842">https://www.schrodinger.com/kb/1842</a>
+
+
+
+
 ### Installing the requried libs
 
+All you have to do is go into the command line and navigate to the folder you installed everything to (it should contain a file called `requirements.txt`)
 
+Once you're in the folder run the command `pip install -r requirments.txt`
 
  
 ## About Flask
