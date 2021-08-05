@@ -1,0 +1,4 @@
+flask-ngrok
+flask
+requests
+twilio
