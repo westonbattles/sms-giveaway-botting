@@ -118,7 +118,16 @@ I don't currently have an operational macOS/Linux device, however after 2 minute
 <a href="https://www.schrodinger.com/kb/1842">https://www.schrodinger.com/kb/1842</a>
 
 
+### Installing the files
 
+There are two ways to install the files, using `git` or manually
+
+For the first option, all you have to do is navigate (using the command line) to the folder you want to install the files into
+make sure you have git installed and run the command:
+
+`git clone https://github.com/westonbattles/sms-giveaway-botting.git`
+
+If your computer tells you that git isn't installed, please follow <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">this guide</a> on installing git
 
 ### Installing the requried libs
 
