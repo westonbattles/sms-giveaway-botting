@@ -72,8 +72,43 @@ Once you are logged in navigate to the [Console](https://console.twilio.com/?fra
 <img src="https://i.imgur.com/r8Qtxzc.png"
    width="1000">
    
-These two codes are what will let you talk to Twilio using the API, so make sure no one else sees them or else they'll have access to all of your phone numbers
+These two codes are what will let you talk to Twilio using the API, so make sure no one else sees them or else they'll have access pretty much your entire account
 
+### Setting your environment variables on Windows
+
+
+<br>
+  
+```python
+import os
+
+account_sid = os.environ['TWILIO_ACCOUNT_SID']
+auth_token = os.environ['TWILIO_AUTH_TOKEN']
+```
+
+<br>
+
+As you can see, my code accesses the data from two environment variables, one called `TWILIO_ACCOUNT_SID` and one called `TWILIO_AUTH_TOKEN`
+
+The first step is to press ``⊞ Win`` + ``R`` and type in the command `sysdm.cpl`
+
+<br>
+
+This should open up your system properties
+
+Next, you want to navigate to the `Advanced` tab and click `Environment Variables...`
+
+<img src="https://user-images.githubusercontent.com/50222899/128274669-36df8d2d-161c-4b6e-a72f-b74de0dfaabf.JPG">
+
+You then want to click `New...` under user variables or system variables (depending on if you want these variables to be accessible by ever user on your computer or just by you)
+
+You then want to carefully type in the variable name slot `TWILIO_ACCOUNT_SID`, and then copy and paste your account sid from earlier into the variable key
+
+<img src="https://user-images.githubusercontent.com/50222899/128275175-0142193d-aa4d-4ee1-9ce9-83b8d081b869.JPG">
+
+Next, hit `OK`, and then do the same thing but this time name the new variable `TWILIO_AUTH_TOKEN`, and paste your auth token into the key slot
+
+Lastly, hit `OK` again, and you're good to go
 
  
 ## About Flask
