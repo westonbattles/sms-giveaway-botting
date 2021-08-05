@@ -228,6 +228,22 @@ Once this file runs, it will prompt you to enter the phone number of the recipie
 `+15550001111`
 
 
+After entering a valid phone number, the program will then ask you to enter the message you want to send that number. Once you hit enter the program will then loop through every phone number you own and send one text containing that message to the recipient from each number.
+
+<br>
+
+## Inspiration
+
+A few weeks ago, I was working on a discord bot when my friend messages me on discord with this article:
+
+<a href="https://www.fastcompany.com/90653871/chipotle-is-giving-away-1-million-in-free-burritos-heres-how-to-get-yours">https://www.fastcompany.com/90653871/chipotle-is-giving-away-1-million-in-free-burritos-heres-how-to-get-yours</a>
+
+<br>
+
+The article describes a marketing event Chipotle announced they were doing. For this event, they announced that for every game in the NBA championship Chiptole would have a special commerical. During this commerical, a special code would be released. The first 40,000 people to text this code to the chipotle number would instantly recieve a free burrito coupon.
+
+I thought this was interesting but my plan didn't formulate until I took a shower. It kind of just hit me like an out of place water droplet. I got out and instantly started work on this maassive project.
+
 ## Flask and Ngrok
  
 Flask is a python web framework that allows you to build localhost web applications with ease. Such ease in fact that it's widely considered one of the best options for client-side web frameworks in python. 
