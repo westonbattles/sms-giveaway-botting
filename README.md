@@ -20,7 +20,7 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
 <ul>
     <li><a href="#Installing">Installing</a></li>
     <li><a href="#Setup">Setup</a></li>
-    <li><a href="#Usage">Running the bot</a></li>
+    <li><a href="#Usage">Usage</a></li>
     <li><a href="#Inspiration">Inspiration</a></li>
     <li><a href="#About-Flask">About Flask</a></li>
   </ul>
@@ -155,6 +155,23 @@ The very first step is to figure out how many Twilio phone numbers you want to u
 - Ideally, the total number of Twilio phone numbers you want should be divisible by 30. This is because that is the max amount of available numbers you can search for at a time with the Twilio API. My code then asks you how many sets (of the `limit` variable, 30 by default) you would like to buy. 
 - If you want to change this number, the variable is located in `buynumbers.py`, but a fair warning, making the limit lower so you can get a more percise number is horribly more ineffecient.
 - I urge you to leave the variable unchanged if the exact number isn't important
+
+Once you figure out how much money needs to be in your Twilio account, you can head over to your [billing overview](https://console.twilio.com/us1/billing/manage-billing/billing-overview?frameUrl=%2Fconsole%2Fbilling%3Fx-target-region%3Dus1) and add the funds neccessary
+
+Congratulations! You are now ready to purchase your Twilio numbers
+
+<br>
+
+The next step is to run your ngrok server
+
+
+### Setting up your server
+
+In order to start your server, all you really have to do is run the `recieve_responses.py` file
+
+running this file should start up the serve, and you'll see three adddresses, the one you want to copy and paste is the one that contains the text: `ngrok`
+
+
 
 ## About Flask
  
