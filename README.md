@@ -74,14 +74,22 @@ Once you are logged in navigate to the [Console](https://console.twilio.com/?fra
    
 These two codes are what will let you talk to Twilio using the API, so make sure no one else sees them or else they'll have access to all of your phone numbers
 
+
+ 
+## About Flask
+ 
+Flask is a python web framework that allows you to build localhost web applications with ease. Such ease in fact that it's widely considered one of the best options for client-side web frameworks in python. 
+
+But for our use, in order to run a server that constantly checks all the incoming messages your twilio numbers are recieving, we have to expose this local server to the internet. This is where ngrok comes in. Now usually when setting up an ngrok server we have to first run our flask server, and then run ngrok in a seperate command shell, and then, finally, get our ngrok url.
+
+Thankfully, to ease our pain a little bit, theres a program called `flask-ngrok` devloped by [Grant Stafford](https://pypi.org/user/gstaff/) which just acts as a way to automate the process of setting up an ngrok server
+
  &nbsp;
    ```python
    from flask import Flask
    from flask_ngrok import run_with_ngrok
    ```
  &nbsp;
- 
-## About Flask
- 
-Flask is a python web framework that allows you to build localhost web applications with ease. Such ease in fact that it's widely considered one of the best options for client-side web frameworks in python. But for our use, in order to run a server that constantly checks all the incoming messages your twilio numbers are recieving, we have to expose this local server to the internet. This is where ngrok comes in. Now usually when setting up an ngrok server we have to first run our flask server, and then run ngrok in a seperate command shell, and then we finally get our ngrok url which we then need to put into updateurl.py script so we can automatically update
+
+When we call run_with_ngrok and pass in our flask app, we you have to do is watch as flask-ngrok automatically sets up an ngrok server for us and outputs the link to console
    
