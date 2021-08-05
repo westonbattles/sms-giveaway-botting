@@ -24,7 +24,7 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
     <li><a href="#Setup">Setup</a></li>
     <li><a href="#Usage">Usage</a></li>
     <li><a href="#Inspiration">Inspiration</a></li>
-    <li><a href="#About-Flask">About Flask and Ngrok (Frameworks used in tandom to make all of this possible</a></li>
+    <li><a href="#Flask-and-Ngrok">Flask and Ngrok</a> (Networking frameworks used in tandom to allow the creation of this project and many other web applications</li>
   </ul>
 
 ## Installing
@@ -222,7 +222,7 @@ The program will then loop through every phone number in your account and update
 
 
 
-## About Flask
+## Flask and Ngrok
  
 Flask is a python web framework that allows you to build localhost web applications with ease. Such ease in fact that it's widely considered one of the best options for client-side web frameworks in python. 
 
