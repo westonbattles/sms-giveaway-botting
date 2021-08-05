@@ -20,7 +20,7 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
 <ul>
     <li><a href="#Installing">Installing</a></li>
     <li><a href="#Setup">Setup</a></li>
-    <li><a href="#Running">Running the bot</a></li>
+    <li><a href="#Usage">Running the bot</a></li>
     <li><a href="#Inspiration">Inspiration</a></li>
     <li><a href="#About-Flask">About Flask</a></li>
   </ul>
@@ -146,9 +146,16 @@ All we have to do to achieve this is go into the command line and navigate to th
 
 Once you're in the folder run the command `pip install -r requirments.txt`
 
+<br>
 
+## Usage
 
- 
+The very first step is to figure out how many Twilio phone numbers you want to use. The price of each number is 1 USD, so we need to fill up our twillio account with the funds neccescary to purchase all the numbers we need.
+
+- Ideally, the total number of Twilio phone numbers you want should be divisible by 30. This is because that is the max amount of available numbers you can search for at a time with the Twilio API. My code then asks you how many sets (of the `limit` variable, 30 by default) you would like to buy. 
+- If you want to change this number, the variable is located in `buynumbers.py`, but a fair warning, making the limit lower so you can get a more percise number is horribly more ineffecient.
+- I urge you to leave the variable unchanged if the exact number isn't important
+
 ## About Flask
  
 Flask is a python web framework that allows you to build localhost web applications with ease. Such ease in fact that it's widely considered one of the best options for client-side web frameworks in python. 
