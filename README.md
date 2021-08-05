@@ -1,4 +1,3 @@
-
 <h1 align="center", > SMS Giveaway Botting (Using Twilio)</h1>
 
 A set of scripts (using the twilio api) that among other things, can bot sms response giveaways
@@ -14,7 +13,10 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
   - **Server automation for recieving sms messages using [flask with ngrok](README.md#About-Flask)** • Useful for apps that want to be able to recieve and save messages sent by the user
 - **Ethical Dilemma** • While I am aware of the ethical dilemmas this entire project poses (spamming, ddos sms flooding), I do believe that this can equally do as much good. 
   - People can use these scripts to bot food giveaways (like the giveaway that started this whole project) and then give away the hundreds maybe even thousands of free coupons they get to homless people/shelters, kids and families who's soul source of food come from food vouchers, etc. The possibilities are literally endless. If you do end up using the code to bot coupon giveaways, I urge you to instead of finding a website where you can sell coupons easily for a quick profit, use the codes as a stepping stone to changing the world. It may not cure world hunger but 1000 free meals can go a long way.
-  
+ 
+
+
+
 ## Table of Contents
 
 <ul>
@@ -27,7 +29,9 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
 
 ## Installing
  
-Before you begin, make sure you have Python 3 + pip installed. To check if you have these installed run `python -V` (make sure the version is python 3.X.X) and `python -m pip -V`. If you don't have these installed please read the guide below
+Before you begin, make sure the number you want to send messages to complies with the [Twilio SMS Limitations](https://support.twilio.com/hc/en-us/articles/223134047-Can-my-Twilio-number-send-SMS-to-a-non-Twilio-short-code-).
+
+In addition, make sure you have Python 3 + pip installed. To check if you have these installed run `python -V` (make sure the version is python 3.X.X) and `python -m pip -V`. If you don't have these installed please read the guide below
 
 ### Installing Python3 for Windows
 
@@ -169,7 +173,52 @@ The next step is to run your ngrok server
 
 In order to start your server, all you really have to do is run the `recieve_responses.py` file
 
-running this file should start up the serve, and you'll see three adddresses, the one you want to copy and paste is the one that contains the text: `ngrok`
+running this file should start the server, and you'll see three addresses, the one you want to copy is the one that contains: `ngrok.io`
+
+<img src="https://user-images.githubusercontent.com/50222899/128288201-4dc13210-7b93-46a9-b23b-62b8998b0cb6.JPG">
+
+Now we can purchase our numbers
+
+<br>
+
+### Buying the numbers
+
+Now all we have to do is run `buynumbers.py`
+
+Running this script should prompt the user to enter their ngrok server **(with /sms added)**
+Simply paste the server adress you just copied and type: `/sms` (be careful not to add anything else)
+
+Before you hit enter your address should look like this:
+`http://ex2amp1e3.ngrok.io/sms`
+
+<br>
+
+Next, you should be prompted to enter the number of sets you want to buy. Remember, (unless you changed the `limit` variable, there are 30 numbers in each set, so if I were to type in `10`, I would buy 300 phone numbers and therefore need 300 dollars in my account beforehand
+
+Press enter if you believe you did everything correctly
+
+The program should run for a bit and then close on its own without error. Congratulations, you are now the proud owner of a crazy amount of Twilio phone numbers! :)
+
+<br>
+
+### Updating the ouput address of old phone numbers
+
+If you haven't purchased any phone numbers before this project, or if you have no intrest of automatically changing the output server address of any of your old Twilio phone numbers, you can go ahead and skip this section
+
+I only wrote this because I had manually bought 20 numbers before I got the idea to automate it and I wanted to automate a way to change the address of those numbers so I didn't have to manually go through and do it.
+
+All you have to do is run `updateurl.py` and then when you are prompted to enter your ngrok address, follow the same steps as before
+
+Paste in your address and **BE SURE** to remember to add `/sms` at the end, it should look like this: `http://ex2amp1e3.ngrok.io/sms`
+
+<br>
+
+The program will then loop through every phone number in your account and update the urls that arent already the url you gave 
+
+<br>
+
+### The time has come to send the messages
+
 
 
 
