@@ -29,7 +29,7 @@ A set of scripts (using the twilio api) that among other things, can bot sms res
  
 Before you begin, make sure you have Python 3 + pip installed. To check if you have these installed run `python -V` (make sure the version is python 3.X.X) and `python -m pip -V`. If you don't have these installed please read the guide below
 
-### Installing Python 3 for Windows
+### Installing Python3 for Windows
 
 Click on the following link and open it once it's downloaded:
 
@@ -39,13 +39,13 @@ Once you have opened the installer, make sure that you add Python 3.8 to path. Y
 
 <img align="center" src="https://i.imgur.com/SkviBw6.png">
 
-### Installing Python for MacOS.
+### Installing Python3 for MacOS.
 
 Click on the following link and install:
 
 `https://www.python.org/ftp/python/3.8.0/python-3.8.0-macosx10.9.pkg`
 
-### Installing Python for Linux
+### Installing Python3 for Linux
 
 Since there are a multitude of package installers for Linux, we'll choose `apt` which is used in Debian-derived distros such as Ubuntu as an example.
 
@@ -138,9 +138,11 @@ For the manual way, all you have to do is download the zip of this repository an
 
 <br>
 
-### Installing the requried libs
+### Installing the requried packages
 
-All you have to do is go into the command line and navigate to the folder you installed everything to (it should contain a file called `requirements.txt`)
+Now that we've installed all the files (including `requirments.txt`) we need to install all the requried packages
+
+All we have to do to achieve this is go into the command line and navigate to the folder you installed everything to (it should contain the `requirements.txt` file)
 
 Once you're in the folder run the command `pip install -r requirments.txt`
 
