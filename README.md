@@ -126,6 +126,8 @@ All you have to do is go into the command line and navigate to the folder you in
 
 Once you're in the folder run the command `pip install -r requirments.txt`
 
+
+
  
 ## About Flask
  
