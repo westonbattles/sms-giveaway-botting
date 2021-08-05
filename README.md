@@ -219,7 +219,13 @@ The program will then loop through every phone number in your account and update
 
 ### The time has come to send the messages
 
+The last step is to run: `send.py`
 
+<br>
+
+Once this file runs, it will prompt you to enter the phone number of the recipient. The format of this phone number should be as follows: 
+
+`+15550001111`
 
 
 ## Flask and Ngrok
