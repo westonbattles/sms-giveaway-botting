@@ -65,14 +65,14 @@ The first thing you have to do is sign up to Twilio if you don't already have an
 
 <br>
 
-Click on the link to the [Twilio Login Page](https://www.twilio.com/try-twilio) and sign up
+Click on the link to the [Twilio Login Page](https://www.twilio.com/try-twilio) and follow the steps to create an account
 
 Once you are logged in navigate to the [Console](https://console.twilio.com/?frameUrl=/console) and there you should see your Account Sid and Auth Token
 
 <img src="https://i.imgur.com/r8Qtxzc.png"
    width="1000">
    
-These two codes are what will let you talk to Twilio using the API, so make sure no one else sees them or else they'll have access pretty much your entire account
+These two codes are what will let you talk to Twilio using the API, so make sure no one else sees them or else they'll have access to pretty much your entire account
 
 ### Setting your environment variables on Windows
 
