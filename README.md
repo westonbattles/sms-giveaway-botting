@@ -259,5 +259,5 @@ Thankfully, to ease our pain a little bit, theres a program called `flask-ngrok`
    ```
  &nbsp;
 
-When we call run_with_ngrok and pass in our flask app, we you have to do is watch as flask-ngrok automatically sets up an ngrok server for us and outputs the link to console
+When we call run_with_ngrok and pass in our flask app, all you have to do is watch as flask-ngrok automatically sets up an ngrok server for us and outputs the link to console
    
