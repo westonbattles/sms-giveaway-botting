@@ -240,7 +240,7 @@ A few weeks ago, I was working on a discord bot when my friend messages me on di
 
 <br>
 
-The article describes a marketing event Chipotle announced they were doing. For this event, they announced that for every game in the NBA championship Chiptole would have a special commerical. During this commerical, a special code would be released. The first 40,000 people to text this code to the chipotle number would instantly recieve a free burrito coupon.
+The article describes a marketing event Chipotle announced they were doing. For this event, they announced that for every game in the NBA championship Chiptole would have a special commerical. During this commerical, a special code would be released. The first 40,000 people to text this code to the Chipotle number would instantly recieve a free burrito coupon.
 
 I thought this was interesting but my plan didn't formulate until I took a shower. It kind of just hit me like an out of place water droplet. I got out and instantly started work on this massive project.
 
